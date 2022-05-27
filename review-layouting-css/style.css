@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-image: url(./img/background.png);
+    color: #333;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+/* Nav */
+nav {
+    width: 1000px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid red;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+
+/* Hero */
+.hero {
+    margin: auto;
+    width: 1040px;
+    height: 350px;
+    background-image: url(./img/image-header.jpg);
+    background-size: cover;
+    background-position: 0 -80px;
+    border-top: 3px solid red;
+    border-bottom: 5px solid blue;
+}
+
+
+/* Main */
+main {
+    width: 700px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+main section.name {
+    margin-bottom: 30px;
+}
+
+main section.name span {
+    color: red;
+}
+
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Aside */
+aside {
+    width: 200px;
+    float: right;
+    padding-right: 20px;
+}
+
+aside img {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+aside p {
+    line-height: 15px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+
+/* Section News */
+section.article {
+    margin-top: 30px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section img {
+    float: left;
+    margin-right: 20px;
+}
+
+.btn-read {
+    margin-top: 10px;
+    border: 2px solid #333;
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+.btn-read:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Footer */
+footer {
+    width: 1040px;
+    margin: auto;
+    padding: 10px 0 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
