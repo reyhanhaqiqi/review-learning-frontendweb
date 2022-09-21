@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Apps</title>
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="/src/style/style.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header id="header">
+        <div class="title">
+            <div class="title-name">Dicoding</div>
+            <div class="title-apps">Bookshelf Apps</div>
+            <div class="title-user">
+                <p class="user"></p>
+                <img class="user" src="/src/assets/exit.png" alt="Exit User" width="34px" />
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Section Start -->
+    <main id="main">
+        <!-- Input Section -->
+        <div class="container-input">
+            <p>Masukkan Buku Baru</p>
+            <input type="text" class="input" name="input" placeholder="Judul Buku" size="20" required><br>
+            <input type="text" class="input" name="input" placeholder="Nama Penulis" size="20" required><br>
+            <input type="number" class="input" name="input" placeholder="Tahun Terbit" size="4" required><br>
+            <label for="checkbox">Sudah dibaca</label><input type="checkbox" class="input-checkbox" name="checkbox"><br>
+            <button type="submit" class="btn-submit">Masukkan ke dalam Rak Buku</button>
+        </div>
+
+        <!-- Result Section -->
+        <div class="container-result">
+            <div class="search-icon">
+                <img src="/src/assets/search.png" alt="Search Image" width="30px">
+            </div>
+            <input type="search" class="search" placeholder="Cari Buku">
+
+            <div class="container-book">
+                <h3 class="title-container-one">Buku | Belum selesai dibaca</h3>
+                <img class="one" src="/src/assets/cancel.png" alt="False Image" width="40px">
+            </div>
+
+            <div class="container-book">
+                <h3 class="title-container-two">Buku | Selesai dibaca</h3>
+                <img class="two" src="/src/assets/checked.png" alt="True Image" width="40px">
+            </div>
+        </div>
+    </main>
+    <!-- Main Section End -->
+
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="copyright">
+            <p class="copyright-name">&copy; All Rights Reserved - Made with <img src="/src/assets/heart.png"
+                    alt="Heart Icon" width="20px"> Reyhan Haqiqi</p>
+            <p class="copyright-location">Sidoarjo - Jawa Timur</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Script Link -->
+    <script src="/src/config/script.js"></script>
+</body>
+
+</html>

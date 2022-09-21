@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #F6F8FD;
+}
+
+/* ! Desktop View (1024px - 2560px) */
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+
+    /* Header Section */
+    #header .title {
+        width: 100%;
+        height: 80px;
+        background-color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #header .title .title-name {
+        position: absolute;
+        left: 60px;
+        top: 25px;
+    }
+
+    #header .title .title-apps {
+        position: absolute;
+        left: 663px;
+        top: 25px;
+    }
+
+    #header .title .title-user {
+        margin-left: 1426px;
+        position: relative;
+        top: 25px;
+    }
+
+    #header .title img {
+        cursor: pointer;
+    }
+
+    /* Main Section */
+    #main .container-input {
+        width: 1171px;
+        height: 586px;
+        position: relative;
+        left: 181px;
+        top: 129px;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+
+    #main .container-input p {
+        margin-left: 450px;
+        margin-bottom: 72px;
+        padding-top: 22px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    #main .container-input .input {
+        width: 1067px;
+        height: 63px;
+        margin-left: 55px;
+        margin-bottom: 35px;
+        background-color: #F6F8FD;
+        border: 1px solid #F6F8FD;
+        border-radius: 180px;
+        outline: none;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    #main .container-input .input:focus {
+        border: 2px solid blue;
+    }
+
+    #main .container-input label {
+        margin-left: 500px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    #main .container-input .input-checkbox {
+        margin-left: 17px;
+        width: 21px;
+        height: 21px;
+        position: relative;
+        top: 5px;
+    }
+
+    #main .container-input .btn-submit {
+        width: 1067px;
+        height: 63px;
+        margin-left: 55px;
+        margin-top: 33px;
+        background-color: blue;
+        border: 1px solid blue;
+        border-radius: 180px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    #main .container-input .btn-submit:active {
+        background-color: #fff;
+        border: 3px solid blue;
+        color: blue;
+    }
+
+    #main .container-result {
+        width: 1171px;
+        position: relative;
+        left: 181px;
+        top: 188px;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+
+    #main .container-result .search-icon {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        top: 55px;
+        left: 65px;
+        background-color: #e7eeff;
+        border-radius: 180px 0 0 180px;
+    }
+
+    #main .container-result .search-icon img {
+        margin: 15px 0 0 18px;
+    }
+
+    #main .container-result .search {
+        width: 993px;
+        height: 60px;
+        position: relative;
+        top: -5px;
+        left: 125px;
+        background-color: #F6F8FD;
+        border: 1px solid #F6F8FD;
+        border-radius: 0 180px 180px 0;
+        outline: none;
+        padding-left: 15px;
+        padding-right: 25px;
+        font-size: 17px;
+        font-weight: 500;
+        color: #787878;
+    }
+
+    #main .container-result .container-book .title-container-one {
+        margin-top: 93px;
+        margin-left: 73px;
+        margin-bottom: 55px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    #main .container-result .container-book .one {
+        position: absolute;
+        top: 210px;
+        left: 447px;
+    }
+
+    #main .container-result .container-book .title-container-two {
+        display: inline-block;
+        margin-top: 227px;
+        margin-left: 73px;
+        margin-bottom: 55px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    #main .container-result .container-book .two {
+        margin-left: 15px;
+        position: absolute;
+        top: 530px;
+    }
+
+    /* Footer Section */
+    #footer {
+        background-color: #fff;
+        position: relative;
+        top: 500px;
+    }
+
+    #footer .copyright {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #footer .copyright .copyright-name {
+        margin-top: 25px;
+        margin-left: 60px;
+        display: inline-block;
+    }
+
+    #footer .copyright img {
+        position: relative;
+        top: 3px;
+    }
+
+    #footer .copyright .copyright-location {
+        display: inline-block;
+        margin-bottom: 25px;
+        margin-left: 840px;
+    }
+
+
+}
+
+
+
+
+/* ! Tablet View (768px - 1024px) */
+
+/* ! Mobile View (320px - 768px) */
